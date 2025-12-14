@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
     <link rel="icon" href="favicon.png">
-    <link rel="manifest" href="manifest.json">
+    <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#667eea">
 </head>
 <body>
@@ -25,6 +25,12 @@
         setTimeout(() => {
             window.location.href = 'app.html';
         }, 3000);
+
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/service-worker.js')
+    .then(() => console.log('Service Worker enregistré'))
+    .catch(err => console.log('Erreur SW', err));
+}
     </script>
 </body>
 </html>

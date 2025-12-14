@@ -2,11 +2,12 @@
   "name": "SmartBay",
   "short_name": "SmartBay",
   "description": "Application de gestion de locataires",
-  "start_url": "index.html",
+  "start_url": "/index.html",
   "display": "standalone",
-  "background_color": "white",
+  "background_color": "#ffffff",
   "theme_color": "#667eea",
   "orientation": "portrait",
+  "lang": "fr",
   "icons": [
     {
       "src": "favicon.png",

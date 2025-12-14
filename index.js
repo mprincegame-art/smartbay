@@ -335,7 +335,3 @@ let tenants = JSON.parse(localStorage.getItem('tenants')) || [];
                 e.target.classList.remove('active');
             }
         };
-        
-        if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("service-worker.js");
-}
