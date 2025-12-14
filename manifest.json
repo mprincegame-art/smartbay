@@ -4,17 +4,19 @@
   "description": "Application de gestion de locataires",
   "start_url": "index.html",
   "display": "standalone",
+  "background_color": "linear-gradient(135deg, #667eea 0%, #764ba2 100%);",
+  "theme_color": "#667eea",
   "orientation": "portrait",
   "icons": [
     {
-      "src": "favicon.jpg",
+      "src": "favicon.png",
       "sizes": "192x192",
-      "type": "image/jpg"
+      "type": "image/png"
     },
     {
-      "src": "favicon.jpg",
+      "src": "favicon.png",
       "sizes": "512x512",
-      "type": "image/jpg"
+      "type": "image/png"
     }
   ]
 }
