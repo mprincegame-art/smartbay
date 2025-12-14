@@ -3,14 +3,14 @@
   "dir": "ltr",
   "display": "standalone",
   "name": "SmartBay",
-  "orientation": "any",
+  "orientation": "portrait",
   "scope": "/",
   "short_name": "SmartBay",
-  "start_url": "/",
+  "start_url": "/index.html",
   "theme_color": "#667eea",
   "icons": [
     {
-      "src": "https://mprincegame-art.github.io/smartbay/favicon.png",
+      "src": "favicon.png",
       "type": "image/png",
       "sizes": "500x500",
       "isSquare": true,
@@ -23,6 +23,5 @@
       "is192x192": false
     }
   ],
-  "description": "Application pour la gestion des locataires.",
-  "id": "smartbay–ppj8"
+  "lang": "fr"
 }
