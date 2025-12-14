@@ -1,27 +1,19 @@
 {
   "background_color": "#ffffff",
-  "dir": "ltr",
   "display": "standalone",
   "name": "SmartBay",
   "orientation": "portrait",
-  "scope": "/",
   "short_name": "SmartBay",
+  "description": "Application de gestion de locataires",
   "start_url": "/index.html",
   "theme_color": "#667eea",
+  "lang": "fr",
   "icons": [
     {
       "src": "favicon.png",
       "type": "image/png",
       "sizes": "500x500",
-      "isSquare": true,
-      "isPng": true,
-      "isWebp": false,
-      "isJpg": false,
       "width": 500,
-      "is512x512": false,
-      "is256x256": false,
-      "is192x192": false
     }
-  ],
-  "lang": "fr"
+  ]
 }
